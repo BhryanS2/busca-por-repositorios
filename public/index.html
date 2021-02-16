@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Repositórios</title>
+    <link rel="stylesheet" href="../src/Css/style.css">
+    <link rel="stylesheet" href="../src/Css/responsive.css">
+</head>
+
+<body>
+
+    <div id="form-container">
+        <form id="repo-form" action="" onsubmit='Form.submit(event)'>
+            <label for="repository" class='sr-only'>repository</label>
+            <input type="text" name="repository" placeholder="Digite o link para um repositório" id="input">
+            <button type="submit" id='button-form'>Adicionar</button>
+        </form>
+    </div>
+
+    <main>
+        <div id="repo-list">
+        </div>
+    </main>
+
+    <script src="../src/index.js"></script>
+    <script>
+        App.reload()
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,120 @@
+:root {
+    --primary-color: #009e22;
+    --bg-color: #130f0d;
+    --text: #f0f0f5;
+    --light-color: #1f1c1a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg-color);
+    color: var(--text)
+}
+
+#form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: max(80%, 500px);
+}
+
+form input, form button {
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    border: none;
+    outline: none;
+    font: 1.1rem Arial 'sans-serif' normal;
+    padding: 10px;
+}
+
+form input {
+    width: 80%;
+}
+
+form button {
+    margin-left: 1rem;
+}
+
+main {
+    display: flex;
+    justify-content: center
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.container {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--light-color);
+    max-width: 600px;
+    padding: 10px;
+}
+
+.image-container {
+    height: 100px;
+    width: 100px;
+}
+
+.image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50rem;
+}
+
+.description-container {
+    margin: 0 1.5rem;
+}
+
+.description {
+    margin-top: 0.5rem;
+}
+
+.linkAndDelete {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.2rem;
+}
+
+.linkAndDelete a, .linkAndDelete button {
+    text-decoration: none;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    border: none;
+    outline: none;
+    font: 1.1rem Arial 'sans-serif' normal;
+    padding: 5px;
+    background: var(--primary-color);
+    color: var(--text);
+    cursor: pointer;
+}
+
+.not_description{
+    padding: 0 100px;
+}

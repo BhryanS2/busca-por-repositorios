@@ -1,0 +1,15 @@
+@media(min-width: 830px) {
+    form{
+        margin: 2rem 0;
+    }
+    #repo-list {
+        display: grid;
+        /* colunas */
+        grid-template-columns: repeat(2, 1fr);
+        /* espaço entre colunas */
+        gap: 2rem;
+    }
+    .container {
+        margin: 0;
+    }
+}
