@@ -97,7 +97,7 @@ const DOM = {
             <div class="linkAndDelete">
                 <a target="_blank" href="${repo.html_url}" class="link">Acessar</a>
 
-                <button id="btnDell" onclick="Repository.remove(${index})">excluir</button>
+                <button id="btnDell" onclick="remove(${index})">excluir</button>
             </div>
         </div>
         `
